@@ -194,7 +194,9 @@ class TagsTextField {
       this.maxLength,
       this.inputDecoration,
       this.onSubmitted,
-      this.onChanged});
+      this.onChanged,
+      this.focusNode
+  });
 
   final double width;
   final bool enabled;
