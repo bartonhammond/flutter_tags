@@ -174,28 +174,27 @@ class _SuggestionsTextFieldState extends State<SuggestionsTextField> {
 
 /// Tags TextField
 class TagsTextField {
-  TagsTextField(
-      {this.lowerCase = false,
-      this.textStyle = const TextStyle(fontSize: 14),
-      this.width = 200,
-      this.enabled = true,
-      this.duplicates = false,
-      this.suggestions,
-      this.constraintSuggestion = true,
-      this.autocorrect,
-      this.autofocus,
-      this.hintText,
-      this.hintTextColor,
-      this.suggestionTextColor,
-      this.helperText,
-      this.helperTextStyle,
-      this.keyboardType,
-      this.textCapitalization,
-      this.maxLength,
-      this.inputDecoration,
-      this.onSubmitted,
-      this.onChanged,
-      this.focusNode
+  TagsTextField({
+    this.lowerCase = false,
+    this.textStyle = const TextStyle(fontSize: 14),
+    this.width = 200,
+    this.enabled = true,
+    this.duplicates = false,
+    this.suggestions,
+    this.constraintSuggestion = true,
+    this.autocorrect,
+    this.autofocus,
+    this.hintText,
+    this.hintTextColor,
+    this.suggestionTextColor,
+    this.helperText,
+    this.helperTextStyle,
+    this.keyboardType,
+    this.textCapitalization,
+    this.maxLength,
+    this.inputDecoration,
+    this.onSubmitted,
+    this.onChanged,
   });
 
   final double width;
