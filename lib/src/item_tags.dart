@@ -272,6 +272,7 @@ class _ItemTagsState extends State<ItemTags> {
           (widget.image.child != null && widget.image.image == null));
     final Widget text = Text(
       widget.title,
+      key: Key('itemText-${widget.title}'),
       softWrap: false,
       textAlign: _textAlignment,
       overflow: widget.textOverflow,
